@@ -1,70 +1,78 @@
-
-
 1. Introduction to GIT & GITHUB:
-•	GIT: A distributed version control system that helps track changes in source code during software development. It allows multiple developers to work on a project simultaneously without overriding each other's changes.
-•	GITHUB: A web-based platform that uses Git for version control. It offers additional features such as bug tracking, task management, and collaboration tools.
+
+• GIT: A distributed version control system that helps track changes in source code during software development. It allows multiple developers to work on a project simultaneously without overriding each other's changes.
+• GITHUB: A web-based platform that uses Git for version control. It offers additional features such as bug tracking, task management, and collaboration tools.
 ________________________________________
 
 
 2. Versioning:
-•	Versioning is the process of assigning unique version numbers to specific states of software. It helps in tracking changes, identifying specific sets of changes, and managing releases.
+
+• Versioning is the process of assigning unique version numbers to specific states of software. It helps in tracking changes, identifying specific sets of changes, and managing releases.
 ________________________________________
 
 
 3. Branches & More:
-•	Branches: Branches in Git are pointers to snapshots of your changes. They allow you to work on different features or fixes separately from the main codebase.
-o	Main (or master)/ Trunk Based: The primary branch where the code is always in a deployable state.
-o	Feature Branches: Created for developing new features.
-o	Release branching: weekly and monthly maintenance to track releases 
-o	Hotfix Branches: For quick fixes in production.
-o	environment branches: dev, pre-prod, prod
 
-o	git branch: Lists all branches in the repository.
-o	git checkout <branch>: Switches to a different branch.
+• Branches: Branches in Git are pointers to snapshots of your changes. They allow you to work on different features or fixes separately from the main codebase.
+o Main (or master)/ Trunk Based: The primary branch where the code is always in a deployable state.
+o Feature Branches: Created for developing new features.
+o Release branching: weekly and monthly maintenance to track releases 
+o Hotfix Branches: For quick fixes in production.
+o environment branches: dev, pre-prod, prod
+  
+o git branch: Lists all branches in the repository.
+o git checkout <branch>: Switches to a different branch.
 
 
 ________________________________________
 
 
 4. Rollback:
-•	The process of reverting a project or repository to a previous state. This is useful when you need to undo changes or revert to a stable version.
-•	Git reset: Moves the current branch to a specified commit, optionally altering the working directory and staging area
-•	Git revert: Creates a new commit that undoes the changes of a previous commit
+
+• The process of reverting a project or repository to a previous state. This is useful when you need to undo changes or revert to a stable version.
+• Git reset: Moves the current branch to a specified commit, optionally altering the working directory and staging area
+• Git revert: Creates a new commit that undoes the changes of a previous commit
 ________________________________________
 
 
 5. Git SSH Login:
-•	Using SSH keys for Git operations enhances security by providing a secure method of authentication.
+
+• Using SSH keys for Git operations enhances security by providing a secure method of authentication.
 
 ________________________________________
 
 
 
-6. local repository to git: 
-•	We can use git init for new repository locally and we can push the changes to the GitHub repository.
+6. local repository to git:
+ 
+• We can use git init for new repository locally and we can push the changes to the GitHub repository.
 
 ________________________________________
 
 
 7. Git Commands:
+
 Git new commits to the repository
-o	git clone <repo>: Clones an existing repository.
-o	git add <file>: Adds changes in the working directory to the staging area.
-o	git commit -m "message": Records changes to the repository with a message.
-o	git push: Pushes changes from the local repository to the remote repository.
+o git clone <repo>: Clones an existing repository.
+o git add <file>: Adds changes in the working directory to the staging area.
+o git commit -m "message": Records changes to the repository with a message.
+o git push: Pushes changes from the local repository to the remote repository.
+
 Git pull and fetch: 
-o	git pull: Fetches and merges changes from the remote repository to the local repository.
-o	git fetch: Downloads changes from a remote repository but doesn't merge them into your working directory
+o git pull: Fetches and merges changes from the remote repository to the local repository.
+o git fetch: Downloads changes from a remote repository but doesn't merge them into your working directory
+
 Git management: 
-o	git status: Shows the status of changes as untracked, modified, or staged.
-o	git log: Shows the commit history.
-o	git stash: Temporarily saves changes in your working directory and staging area without committing them
-o	git diff: Shows the differences between various states of your repository, such as between commits, branches, or your working directory and staging area
+o git status: Shows the status of changes as untracked, modified, or staged.
+o git log: Shows the commit history.
+o git stash: Temporarily saves changes in your working directory and staging area without committing them
+o git diff: Shows the differences between various states of your repository, such as between commits, branches, or your working directory and staging area
+
 
 Git merge, rebase and cherry pick:
-o	git merge: Combines changes from one branch into another, creating a merge commit
-o	git rebase: Moves or reapplies commits from one branch onto another, creating a linear history
-o	git cherry-pick: Applies changes from a specific commit to the current branch
+o git merge: Combines changes from one branch into another, creating a merge commit
+o git rebase: Moves or reapplies commits from one branch onto another, creating a linear history
+o git cherry-pick: Applies changes from a specific commit to the current branch
 
 
 
